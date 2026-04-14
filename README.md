@@ -120,4 +120,4 @@ python tools/train.py configs/finetune_with_custom_data.py
 | mAP_m         | 41.0               | 45.8                  | +4.8        |
 | mAP_l         | 48.1               | 54.3                  | +6.2        |
 
-> These are representative results based on published benchmarks for these configurations on COCO val2017.
+
