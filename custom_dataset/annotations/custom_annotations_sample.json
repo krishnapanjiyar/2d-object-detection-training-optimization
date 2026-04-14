@@ -1,0 +1,81 @@
+{
+  "info": {
+    "description": "Custom annotated dataset for training optimization assignment",
+    "version": "1.0",
+    "year": 2025,
+    "contributor": "Student",
+    "date_created": "2025-01-01T00:00:00"
+  },
+  "licenses": [
+    {"id": 1, "name": "Custom", "url": ""}
+  ],
+  "categories": [
+    {"id": 1, "name": "person", "supercategory": "person"},
+    {"id": 2, "name": "bicycle", "supercategory": "vehicle"},
+    {"id": 3, "name": "car", "supercategory": "vehicle"},
+    {"id": 17, "name": "cat", "supercategory": "animal"},
+    {"id": 18, "name": "dog", "supercategory": "animal"}
+  ],
+  "images": [
+    {
+      "id": 1,
+      "file_name": "img_0001.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "id": 2,
+      "file_name": "img_0002.jpg",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "id": 3,
+      "file_name": "img_0003.jpg",
+      "width": 1280,
+      "height": 720
+    }
+  ],
+  "annotations": [
+    {
+      "id": 1,
+      "image_id": 1,
+      "category_id": 1,
+      "bbox": [150, 200, 120, 350],
+      "area": 42000,
+      "iscrowd": 0
+    },
+    {
+      "id": 2,
+      "image_id": 1,
+      "category_id": 3,
+      "bbox": [500, 300, 400, 250],
+      "area": 100000,
+      "iscrowd": 0
+    },
+    {
+      "id": 3,
+      "image_id": 2,
+      "category_id": 18,
+      "bbox": [300, 400, 180, 150],
+      "area": 27000,
+      "iscrowd": 0
+    },
+    {
+      "id": 4,
+      "image_id": 3,
+      "category_id": 1,
+      "bbox": [100, 50, 200, 500],
+      "area": 100000,
+      "iscrowd": 0
+    },
+    {
+      "id": 5,
+      "image_id": 3,
+      "category_id": 2,
+      "bbox": [600, 350, 250, 200],
+      "area": 50000,
+      "iscrowd": 0
+    }
+  ]
+}
