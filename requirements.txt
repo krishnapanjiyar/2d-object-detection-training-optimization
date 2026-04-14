@@ -1,0 +1,23 @@
+# Core dependencies
+# On Mac: pip3 install torch torchvision (MPS support included since PyTorch 2.0)
+# On CUDA: pip3 install torch torchvision --index-url https://download.pytorch.org/whl/cu118
+torch>=2.0.0
+torchvision>=0.15.0
+
+# MMDetection ecosystem
+# Install via: pip3 install -U openmim && mim install mmengine mmcv mmdet
+mmengine>=0.10.0
+mmcv>=2.0.0
+mmdet>=3.2.0
+
+# Annotation & evaluation
+pycocotools>=2.0.7
+opencv-python>=4.8.0
+Pillow>=10.0.0
+
+# Visualization
+matplotlib>=3.7.0
+seaborn>=0.12.0
+
+# Optional: Label Studio for annotation
+# pip3 install label-studio
